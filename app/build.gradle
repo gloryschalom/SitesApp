@@ -1,0 +1,12 @@
+apply plugin: 'com.android.application'
+android {
+    namespace 'com.axel.sites'
+    compileSdk 33
+    defaultConfig {
+        applicationId 'com.axel.sites'
+        minSdk 16
+        targetSdk 33
+        versionCode 1
+        versionName '1.0'
+    }
+}
